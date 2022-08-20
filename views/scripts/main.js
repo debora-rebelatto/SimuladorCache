@@ -15,29 +15,6 @@ const cache = function () {
   let linesSetCH = 4;
   let lineBuildCH = [];
 
-  let hitData = {
-    'read': {
-      'acertos': 0,
-      'erros': 0,
-      'p_acertos': 0,
-      'p_erros': 0,
-    },
-
-    'written': {
-      'acertos': 0,
-      'erros': 0,
-      'p_acertos': 0,
-      'p_erros': 0,
-    },
-
-    'geral': {
-      'acertos': 0,
-      'erros': 0,
-      'p_acertos': 0,
-      'p_erros': 0,
-    },
-  };
-
   const buildCache = function () {
     let deslocamento = 0;
     let conjunto = 0;

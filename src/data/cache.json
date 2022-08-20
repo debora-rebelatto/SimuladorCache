@@ -1,0 +1,8 @@
+{
+  "numberOfCellsonMainMemory": 128,
+  "numberOfCellsPerRow": 8,
+  "numberOfRows": 8,
+  "blockSizeInCells": 4,
+  "cellSize": 8,
+  "sizeOfSet": 2
+}

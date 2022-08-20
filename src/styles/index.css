@@ -1,0 +1,14 @@
+html body {
+  background-color: #F2F2F3;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  padding: 30px;
+}
+
+input {
+  box-sizing: border-box;
+  height: 38px;
+  background: #FFFFFF;
+  border: 2px solid #CDCDD0;
+  border-radius: 4px;
+}
