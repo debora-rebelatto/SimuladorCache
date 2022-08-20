@@ -1,5 +1,15 @@
 # Organização de Computadores 2021.2
 
+## Introdução
+
+### O que é?
+
+### Como iniciar?
+```
+npm i
+npm run start
+```
+
 ## Simulador Cache
 Mapeamento Direto-escrita em ambas
 

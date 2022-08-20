@@ -1,13 +1,9 @@
 const ejs = require("ejs");
+const path = require('path');
 
 async function getSimulador(req, res) {
-  // Render page using renderFile method
-  ejs.renderFile('./index.html', function(err, html) {
-    if (err) {
-      console.log(err);
-    }
-    res.send(html);
-  });
+  console.log(path.join(__dirname, '../views/index.html'));
+  res.sendFile(path.join(__dirname, '../views/index.html'));
 }
 
 module.exports = {
