@@ -6,7 +6,8 @@ async function getSimulador(req, res) {
     if (err) {
       console.log(err);
     }
-    res.send(html);
+    res.sendFile(__dirname + '/index.html');
+
   });
 }
 
