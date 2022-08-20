@@ -1,0 +1,26 @@
+{
+  "name": "simuladorcache",
+  "version": "1.0.0",
+  "description": "## Simulador Cache Mapeamento Direto-escrita em ambas",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debora-rebelatto/SimuladorCache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debora-rebelatto/SimuladorCache/issues"
+  },
+  "homepage": "https://github.com/debora-rebelatto/SimuladorCache#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
