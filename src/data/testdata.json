@@ -1,0 +1,22 @@
+{
+  "tamanho_celula": 8,
+
+  "array_MP": [],
+  "numero_celulas_MP": 128,
+  "qtd_celulas_bloco_MP": 4,
+  "numero_blocos_MP": 0,
+
+  "endereco_MP": 0,
+  "bloco_endereco_MP": 0,
+  
+  "array_CH": [],
+  "numero_linhas_CH": 8,
+  "linhas_conjuntos_CH": 4,
+  "linha_montada_CH": [{
+    "bit_validacao": 0,
+    "politica": 0,
+    "rotulo": 0,
+    "conjunto": 0,
+    "valores": []
+  }]
+}

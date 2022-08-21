@@ -1,5 +1,7 @@
 import React from "react";
+import Navbar from "../../components/Navbar";
 import { buildInitCache } from "../../services";
+import MainMemory from "../../components/MainMemory";
 
 const Home = () => {
 
@@ -15,6 +17,7 @@ const Home = () => {
 
   return (
     <div>
+      <Navbar />
       <h1> Memória Cache </h1>
       <div>
         <label htmlFor="cache">
@@ -43,6 +46,7 @@ const Home = () => {
           <button> Escrever </button>
         </div>
       </div>
+      <MainMemory />
     </div>
   );
 }

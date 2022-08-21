@@ -52,7 +52,6 @@ const cache = function () {
 
   return {
     init: function () {
-      projectInfo();
       buildCache(
         cellsBlockQuantityMainMemory,
         linesNumberCH,

@@ -1,12 +1,12 @@
 {
-  "read": {
+  "leitura": {
     "acertos": 0,
     "erros": 0,
     "p_acertos": 0,
     "p_erros": 0
   },
 
-  "written": {
+  "escrita": {
     "acertos": 0,
     "erros": 0,
     "p_acertos": 0,
